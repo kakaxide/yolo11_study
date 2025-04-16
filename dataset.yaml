@@ -1,15 +1,18 @@
 # 这里的路径是相对与运行目录(一般为train.py程序)的路径，如不清楚如何填写，建议填写绝对路径，参考如下：
 # train: C:/Users/your_username/PycharmProjects/yolov5/source/images/train
 # val: C:/Users/your_username/PycharmProjects/yolov5/source/images/val
-train:  E:/VOC2007_3/images/train
-val: E:/VOC2007_3/images/val
+train:  E:/source/images/train
+val: E:/source/images/val
 # nc为种类数量
-nc: 3
+nc: 7
 # 名称，classes.txt，X-AnyLabeling中的群组编号顺序对应
 names:
-  0: 'helmet'
-  1: 'person'
-  2: 'head'
-
+  0: 'bear'
+  1: 'wine'
+  2: 'clock'
+  3: 'bear_site'
+  4: 'wine_site'
+  5: 'clock_site'
+  6: 'base'
 #   1: 'other'
 # 	2: ......
