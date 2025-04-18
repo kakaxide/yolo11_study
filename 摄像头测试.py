@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@Auth ： 挂科边缘
-@File ：detect.py
-@IDE ：PyCharm
-@Motto:学习新思想，争做新青年
-@Email ：179958974@qq.com
-"""
 
 from ultralytics import YOLO
 import cv2
